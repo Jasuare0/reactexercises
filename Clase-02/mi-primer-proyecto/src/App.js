@@ -5,7 +5,9 @@ import Banner from './Components/Banner/Banner.js'
 // importing the Navbar module
 import Products from './Components/Products/Products.js'
 import './Components/Products/Products.css'
-
+// importing the Navbar module
+import FooterComponent from './Components/Footer/FooterComponent.js'
+import './Components/Footer/Footer.css'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Banner />
       {/* Call to the Products component */}
       <Products />
+
+      <FooterComponent />
 
     </div>
   );
