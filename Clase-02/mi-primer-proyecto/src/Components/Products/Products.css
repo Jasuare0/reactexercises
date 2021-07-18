@@ -1,0 +1,36 @@
+.externalContainerSection{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.internalContainerSection{
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.containerProduct{
+    width: 30%;
+    text-align: center;
+}
+
+.imageNameContainer{
+    width: 100%;
+}
+
+.imageProductContainer{
+    width: 100%;
+}
+.imageProduct{
+    width: 100%;
+}
