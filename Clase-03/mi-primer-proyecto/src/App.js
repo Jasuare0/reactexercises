@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
+// Importing Data Base
+import rickMortyDB from './Data/rick_and_morty.json' 
+
 function App() {
+
+  console.log(rickMortyDB)
+
   return (
     <div className="App">
       <header className="App-header">
