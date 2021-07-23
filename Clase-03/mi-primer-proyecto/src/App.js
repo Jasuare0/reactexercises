@@ -19,7 +19,7 @@ function App() {
         <MainTitle 
           mainTitle="This is a Title."    
         />
-        
+
         <Characters 
           arrayData={rickMortyDB}
         />

@@ -8,5 +8,9 @@ let MainTitle = (props) => {
 
 }
 
+MainTitle.defaultProps = {
+    mainTitle: "Title value is missing!"
+}
+
 export default MainTitle;
         
