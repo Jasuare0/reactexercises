@@ -1,3 +1,6 @@
+import PropTypes from 'prop-types';
+
+
 let MainTitle = (props) => {
 
     return(
@@ -10,6 +13,10 @@ let MainTitle = (props) => {
 
 MainTitle.defaultProps = {
     mainTitle: "Title value is missing!"
+}
+
+MainTitle.propTypes = {
+    mainTitle: PropTypes.string.isRequired
 }
 
 export default MainTitle;
